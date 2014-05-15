@@ -55,7 +55,7 @@ static NSString * const channel = @"/MQTTKit/canard";
                      
                      [self.client publishString:msg
                                         toTopic:channel
-                                        withQos:AtLeastOnce
+                                        withQos:ExactlyOnce
                                          retain:YES completionHandler:nil];
                      
                      msg = [NSString stringWithFormat:@"%@ left.", self.nickname];
