@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CLPViewController : UIViewController
+@interface CLPChatViewController : UIViewController
+
+@property NSString* nickname;
 
 @end

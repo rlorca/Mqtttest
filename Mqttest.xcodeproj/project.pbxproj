@@ -15,13 +15,14 @@
 		E00A22BB192281CA00CB40DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00A22BA192281CA00CB40DA /* main.m */; };
 		E00A22BF192281CA00CB40DA /* CLPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00A22BE192281CA00CB40DA /* CLPAppDelegate.m */; };
 		E00A22C2192281CA00CB40DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00A22C0192281CA00CB40DA /* Main.storyboard */; };
-		E00A22C5192281CA00CB40DA /* CLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00A22C4192281CA00CB40DA /* CLPViewController.m */; };
+		E00A22C5192281CA00CB40DA /* CLPChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00A22C4192281CA00CB40DA /* CLPChatViewController.m */; };
 		E00A22C7192281CA00CB40DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00A22C6192281CA00CB40DA /* Images.xcassets */; };
 		E00A22CE192281CA00CB40DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00A22CD192281CA00CB40DA /* XCTest.framework */; };
 		E00A22CF192281CA00CB40DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00A22AE192281CA00CB40DA /* Foundation.framework */; };
 		E00A22D0192281CA00CB40DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00A22B2192281CA00CB40DA /* UIKit.framework */; };
 		E00A22D8192281CA00CB40DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E00A22D6192281CA00CB40DA /* InfoPlist.strings */; };
 		E00A22DA192281CA00CB40DA /* MqttestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00A22D9192281CA00CB40DA /* MqttestTests.m */; };
+		E00A22E5192522BF00CB40DA /* CLPConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00A22E4192522BF00CB40DA /* CLPConnectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +49,16 @@
 		E00A22BD192281CA00CB40DA /* CLPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPAppDelegate.h; sourceTree = "<group>"; };
 		E00A22BE192281CA00CB40DA /* CLPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPAppDelegate.m; sourceTree = "<group>"; };
 		E00A22C1192281CA00CB40DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E00A22C3192281CA00CB40DA /* CLPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPViewController.h; sourceTree = "<group>"; };
-		E00A22C4192281CA00CB40DA /* CLPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPViewController.m; sourceTree = "<group>"; };
+		E00A22C3192281CA00CB40DA /* CLPChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPChatViewController.h; sourceTree = "<group>"; };
+		E00A22C4192281CA00CB40DA /* CLPChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPChatViewController.m; sourceTree = "<group>"; };
 		E00A22C6192281CA00CB40DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E00A22CC192281CA00CB40DA /* MqttestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MqttestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00A22CD192281CA00CB40DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E00A22D5192281CA00CB40DA /* MqttestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MqttestTests-Info.plist"; sourceTree = "<group>"; };
 		E00A22D7192281CA00CB40DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E00A22D9192281CA00CB40DA /* MqttestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MqttestTests.m; sourceTree = "<group>"; };
+		E00A22E3192522BF00CB40DA /* CLPConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPConnectViewController.h; sourceTree = "<group>"; };
+		E00A22E4192522BF00CB40DA /* CLPConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPConnectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +124,10 @@
 				E00A22BD192281CA00CB40DA /* CLPAppDelegate.h */,
 				E00A22BE192281CA00CB40DA /* CLPAppDelegate.m */,
 				E00A22C0192281CA00CB40DA /* Main.storyboard */,
-				E00A22C3192281CA00CB40DA /* CLPViewController.h */,
-				E00A22C4192281CA00CB40DA /* CLPViewController.m */,
+				E00A22C3192281CA00CB40DA /* CLPChatViewController.h */,
+				E00A22C4192281CA00CB40DA /* CLPChatViewController.m */,
+				E00A22E3192522BF00CB40DA /* CLPConnectViewController.h */,
+				E00A22E4192522BF00CB40DA /* CLPConnectViewController.m */,
 				E00A22C6192281CA00CB40DA /* Images.xcassets */,
 				E00A22B5192281CA00CB40DA /* Supporting Files */,
 			);
@@ -295,8 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00A22BF192281CA00CB40DA /* CLPAppDelegate.m in Sources */,
+				E00A22E5192522BF00CB40DA /* CLPConnectViewController.m in Sources */,
 				E00A22BB192281CA00CB40DA /* main.m in Sources */,
-				E00A22C5192281CA00CB40DA /* CLPViewController.m in Sources */,
+				E00A22C5192281CA00CB40DA /* CLPChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
